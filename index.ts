@@ -9,6 +9,7 @@ const eksVpc = new awsx.ec2.Vpc("eks-vpc", {
     }
 });
 
+
 // Export some values for use elsewhere
 export const vpcId = eksVpc.vpcId;
 export const privateSubnetIds = eksVpc.privateSubnetIds;
