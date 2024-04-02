@@ -1,0 +1,7 @@
+name: infrastructure
+runtime: nodejs
+description: Monolithic infrastructure for Crater like VPC, Security Groups, Load Balancers, etc
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""
